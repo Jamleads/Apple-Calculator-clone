@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #04415f, #014c3b);
+}
+.calculator {
+  background: #000;
+  width: 25%;
+  min-height: 100vh;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+@media screen and (max-width: 488px) {
+  .calculator {
+    width: 100%;
+  }
+}
+.cal-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 75px);
+}
+.cal-grid > button {
+  margin: 0.3rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: #353537;
+}
+.cal-grid > button:hover {
+  background-color: gray;
+}
+.span-two {
+  grid-column: span 2;
+  border-radius: 45rem !important;
+  text-align: left;
+  padding-left: 1.8rem;
+}
+.output {
+  grid-column: 1/-1;
+  margin-left: auto;
+  margin-top: auto;
+  padding: 1rem;
+  color: white;
+  font-size: 3rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.cal-grid .color1 {
+  background-color: rgb(120, 125, 130);
+  color: #000;
+  font-size: 1.3rem;
+}
+.cal-grid .color2 {
+  background-color: #f89e03f0;
+}
