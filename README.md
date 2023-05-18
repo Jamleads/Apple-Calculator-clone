@@ -22,5 +22,5 @@ code is open for contribution
 
 Contact
 twitter: https://twitter.com/Adetunjijay
-linkedin: https://www.linkedin.com/in/adetunji-jacob
+linkedin: (https://www.linkedin.com/in/adetunji-jacob-3b9973197/)
 email. ogunyemiadetunji17@gmail.com
